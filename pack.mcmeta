@@ -1,0 +1,58 @@
+{
+  "pack": {
+    "description": [
+      { "text": "  New Style", "color": "#7e7e7e" },
+      { "text": " \u2022 ", "color": "#ffffff" },
+      { "text": "1", "color": "#b2d0d0" },
+      { "text": ".", "color": "#808080" },
+      { "text": "21", "color": "#fed639" },
+      { "text": ".", "color": "#808080" },
+      { "text": "11", "color": "#b2d0d0" },
+      "\n",
+      { "text": "  by ", "color": "#7e7e7e" },
+      { "text": "TheLySky", "color": "#ffffff" },
+      "§f\uDBA5\uDF28"
+    ],
+    "pack_format": 75,
+    "supported_formats": {
+      "min_inclusive": 34,
+      "max_inclusive": 75
+    },
+    "min_format": 34,
+    "max_format": 75
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": { "min_inclusive": 34, "max_inclusive": 34 },
+        "min_format": 34,
+        "max_format": 34,
+        "directory": "overlay_34"
+      },
+      {
+        "formats": { "min_inclusive": 42, "max_inclusive": 75 },
+        "min_format": 42,
+        "max_format": 75,
+        "directory": "overlay_42"
+      },
+      {
+        "formats": { "min_inclusive": 46, "max_inclusive": 75 },
+        "min_format": 46,
+        "max_format": 75,
+        "directory": "overlay_46"
+      },
+      {
+        "formats": { "min_inclusive": 46, "max_inclusive": 55 },
+        "min_format": 46,
+        "max_format": 55,
+        "directory": "overlay_46_55"
+      },
+      {
+        "formats": { "min_inclusive": 69, "max_inclusive": 75 },
+        "min_format": 69,
+        "max_format": 75,
+        "directory": "overlay_69"
+      }
+    ]
+  }
+}
