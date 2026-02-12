@@ -1,0 +1,1 @@
+float sphericalDistance = fog_distance(ModelViewMat, IViewRotMat * Position, 0);

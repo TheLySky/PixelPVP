@@ -1,0 +1,52 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"1": "block/mossy_stone_bricks_post",
+		"2": "block/mossy_stone_bricks_wall_end",
+		"particle": "block/mossy_stone_bricks",
+		"wall": "block/mossy_stone_bricks"
+	},
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "on_shelf": {
+          "rotation": [ 0, 90, 0 ],
+          "translation": [ 0, 0, 0 ],
+          "scale": [ 1, 1, 1 ]
+        }
+    },
+    "elements": [
+        {   "from": [4, -0.001, 4],
+			"to": [12, 15.999, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 8, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#1"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#1"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#1", "cullface": "down"}
+			},
+            "__comment": "Center post"
+        },
+        {   "from": [5, 0, 0],
+			"to": [11, 13, 16],
+			"faces": {
+				"north": {"uv": [1, 3, 7, 16], "texture": "#wall", "cullface": "north"},
+				"east": {"uv": [0, 3, 16, 16], "texture": "#wall"},
+				"south": {"uv": [9, 3, 15, 16], "texture": "#wall", "cullface": "south"},
+				"west": {"uv": [0, 3, 16, 16], "texture": "#wall"},
+				"up": {"uv": [0, 2, 16, 8], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [0, 10, 16, 16], "rotation": 90, "texture": "#2", "cullface": "down"}
+			},
+            "__comment": "Full wall"
+        }
+    ]
+}

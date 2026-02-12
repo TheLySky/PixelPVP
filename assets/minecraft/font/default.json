@@ -1,0 +1,17 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/resource_pack_frame_thelysky.png",
+      "ascent": 30,
+      "height": 34,
+      "chars": ["\uDBA5\uDF28"]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "": -106
+      }
+    }
+  ]
+}

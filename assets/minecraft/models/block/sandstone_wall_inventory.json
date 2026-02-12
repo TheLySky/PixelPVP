@@ -1,0 +1,51 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"1": "block/sandstone_top",
+		"particle": "block/sandstone",
+		"wall": "block/sandstone"
+	},
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "on_shelf": {
+          "rotation": [ 0, 90, 0 ],
+          "translation": [ 0, 0, 0 ],
+          "scale": [ 1, 1, 1 ]
+        }
+    },
+	"elements": [
+		{	"from": [4, -0.001, 4],
+			"to": [12, 15.999, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#1"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#wall", "cullface": "down"}
+			},
+            "__comment": "Center post"
+		},
+		{	"from": [5, 0, 0],
+			"to": [11, 13, 16],
+			"faces": {
+				"north": {"uv": [5, 0, 11, 13], "texture": "#wall", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 13], "texture": "#wall"},
+				"south": {"uv": [5, 0, 11, 13], "texture": "#wall", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 13], "texture": "#wall"},
+				"up": {"uv": [5, 0, 11, 16], "texture": "#1"},
+				"down": {"uv": [5, 0, 11, 16], "texture": "#wall", "cullface": "down"}
+			},
+            "__comment": "Full wall"
+		}
+	]
+}
